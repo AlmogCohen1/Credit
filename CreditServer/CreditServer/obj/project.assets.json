@@ -1,11 +1,68 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BLL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "BLL/1.0.0": {
+      "type": "project",
+      "path": "../BLL/BLL.csproj",
+      "msbuildProject": "../BLL/BLL.csproj"
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "path": "../DAL/DAL.csproj",
+      "msbuildProject": "../DAL/DAL.csproj"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "BLL >= 1.0.0",
+      "DAL >= 1.0.0",
+      "Entities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Almog\\.nuget\\packages\\": {},
@@ -43,7 +100,17 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Almog\\source\\repos\\Credit\\CreditServer\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\Almog\\source\\repos\\Credit\\CreditServer\\BLL\\BLL.csproj"
+            },
+            "C:\\Users\\Almog\\source\\repos\\Credit\\CreditServer\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\Almog\\source\\repos\\Credit\\CreditServer\\DAL\\DAL.csproj"
+            },
+            "C:\\Users\\Almog\\source\\repos\\Credit\\CreditServer\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Almog\\source\\repos\\Credit\\CreditServer\\Entities\\Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

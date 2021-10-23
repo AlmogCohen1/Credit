@@ -38,3 +38,9 @@ C:\Users\Almog\source\repos\Credit\CreditServer\CreditServer\obj\Debug\net5.0\re
 C:\Users\Almog\source\repos\Credit\CreditServer\CreditServer\obj\Debug\net5.0\CreditServer.pdb
 C:\Users\Almog\source\repos\Credit\CreditServer\CreditServer\obj\Debug\net5.0\CreditServer.genruntimeconfig.cache
 C:\Users\Almog\source\repos\Credit\CreditServer\CreditServer\obj\Debug\net5.0\CreditServer.csproj.CopyComplete
+C:\Users\Almog\source\repos\Credit\CreditServer\CreditServer\bin\Debug\net5.0\BLL.dll
+C:\Users\Almog\source\repos\Credit\CreditServer\CreditServer\bin\Debug\net5.0\DAL.dll
+C:\Users\Almog\source\repos\Credit\CreditServer\CreditServer\bin\Debug\net5.0\Entities.dll
+C:\Users\Almog\source\repos\Credit\CreditServer\CreditServer\bin\Debug\net5.0\BLL.pdb
+C:\Users\Almog\source\repos\Credit\CreditServer\CreditServer\bin\Debug\net5.0\DAL.pdb
+C:\Users\Almog\source\repos\Credit\CreditServer\CreditServer\bin\Debug\net5.0\Entities.pdb

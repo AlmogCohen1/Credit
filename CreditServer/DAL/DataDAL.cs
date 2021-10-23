@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Entities.Contracts.Core;
+using Entities.Contracts.DAL;
+using System;
 
 namespace DAL
 {
-    public class DataDAL
+    public class DataDALL:IDAL,IScope, IDataDAL
     {
     }
 }

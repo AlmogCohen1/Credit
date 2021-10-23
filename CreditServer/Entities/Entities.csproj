@@ -4,4 +4,11 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="DTO\" />
+    <Folder Include="InfraStructure\" />
+    <Folder Include="Models\" />
+    <Folder Include="Enum\" />
+  </ItemGroup>
+
 </Project>

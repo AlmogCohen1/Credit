@@ -33,6 +33,9 @@
     ".NETCoreApp,Version=v5.0": {
       "CreditServer/1.0.0": {
         "dependencies": {
+          "BLL": "1.0.0",
+          "DAL": "1.0.0",
+          "Entities": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -322,6 +325,36 @@
         },
         "compile": {
           "CreditServer.dll": {}
+        }
+      },
+      "BLL/1.0.0": {
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "runtime": {
+          "BLL.dll": {}
+        },
+        "compile": {
+          "BLL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "runtime": {
+          "DAL.dll": {}
+        },
+        "compile": {
+          "DAL.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "runtime": {
+          "Entities.dll": {}
+        },
+        "compile": {
+          "Entities.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2026,6 +2059,21 @@
   },
   "libraries": {
     "CreditServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
